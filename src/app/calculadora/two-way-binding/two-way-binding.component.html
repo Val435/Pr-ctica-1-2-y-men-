@@ -1,0 +1,18 @@
+<div style="margin: 20px 0 20px 20px;">
+    <h1>Two Way Binding</h1>
+
+    <p>Number 1:</p>
+    <input type="text" [(ngModel)]="num1"> 
+    
+    <p>Number 2:</p>
+    <input type="text" [(ngModel)]="num2"> 
+    
+    <button (click)="sumameEsta()">Sumar</button> 
+    
+    <p>Resultado: {{ resultado }}</p>
+    
+    <p>El numero 1 ingresado fue: {{num1}}</p>
+    
+    <h1>{{tituloARecibir}}</h1>
+</div>
+

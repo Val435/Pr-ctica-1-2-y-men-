@@ -1,0 +1,20 @@
+.example-container {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-sidenav-container {
+    height: calc(100% - 64px); 
+  }
+  
+  mat-sidenav {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+  }
+  
+  mat-sidenav mat-menu-item {
+    width: 100%; 
+  }
+  

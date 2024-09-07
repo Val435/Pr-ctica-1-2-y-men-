@@ -1,0 +1,12 @@
+<div style="margin: 20px 0 20px 20px;">
+<h1>One Way Binding</h1>
+
+<p>Number 1: </p> <input type="text" (keyup)="pressKey1($event)">
+
+<p>Number 2: </p> <input type="text" (keyup)="pressKey2($event)">
+
+<button (click)="sum()">Sumar</button>
+<br>
+
+<p>Resultado: {{ resultado }}</p>
+</div>

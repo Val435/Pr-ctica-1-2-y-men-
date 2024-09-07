@@ -1,0 +1,7 @@
+<div style="margin: 20px 0 20px 20px;">
+    <app-two-way-binding [tituloARecibir]="tituloAEnviar" (resultadoCalculado)="onResultadoCalculado($event)"> </app-two-way-binding>
+    
+        <p style="margin: 20px 0 20px 20px;">Resultado recibido del hijo: {{ resultadoRecibidoDelHijo }}</p>
+
+<router-outlet></router-outlet>
+</div>
